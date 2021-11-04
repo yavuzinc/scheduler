@@ -7,7 +7,7 @@ React scheduler with up to five appointments per day. The information will be sy
 ## Final Product
 
 ### Please go to live site for test! Have fun!
--[Click me for booking.](https://618344595badad21556aed27--scheduler-lighthouselabs.netlify.app/).
+-[Click me for booking](https://618344595badad21556aed27--scheduler-lighthouselabs.netlify.app/)
 
 ### Homepage
 
@@ -77,5 +77,7 @@ npm run storybook
 ## Getting Started
 
 - Install all dependencies (using the `npm install` command).
-- Get and install the [server](https://github.com/lighthouse-labs/scheduler-api).
-- Run both the server and the client.
+- **Get and install the [server](https://github.com/lighthouse-labs/scheduler-api).
+- Run both the **server and the client.
+
+** If you would like to use local server.
