@@ -4,12 +4,6 @@ import InterviewerListItem from 'components/InterviewerListItem';
 import PropTypes from 'prop-types';
 
 export default function InterviewerList(props) {
-  /*Takes in Three props
-  interviewers: array of objs containing info of each interviewer
-  interviewer: id
-  setInterviewer:function; accepts id of interviewer
-  */ 
-
   const interviewers = props.interviewers.map(interviewerObj => {
 
     return (
