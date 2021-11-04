@@ -19,9 +19,9 @@ export default function useApplicationData(props) {
 
   useEffect(() => {
     Promise.all([
-      axios.get("http://localhost:8001/api/days"),
-      axios.get("http://localhost:8001/api/appointments"),
-      axios.get("http://localhost:8001/api/interviewers")
+      axios.get("https://scheduler-lighthouselabs.herokuapp.com/api/days"),
+      axios.get("https://scheduler-lighthouselabs.herokuapp.com/api/appointments"),
+      axios.get("https://scheduler-lighthouselabs.herokuapp.com/api/interviewers")
     ]).then(all => {
       dispatch({
         type: SET_APPLICATION_DATA,
@@ -33,7 +33,7 @@ export default function useApplicationData(props) {
   }, []);
 
   function bookInterview(id, interview) {
-    return axios.put(`http://localhost:8001/api/appointments/${id}`, { interview }).then(r =>
+    return axios.put(`https://scheduler-lighthouselabs.herokuapp.com/api/appointments/${id}`, { interview }).then(r =>
       // Promise.all([
       //   axios.get("/api/appointments"),
       //   axios.get("/api/days")
@@ -53,7 +53,7 @@ export default function useApplicationData(props) {
   }
 
   function cancelInterview(id) {
-    return axios.delete(`http://localhost:8001/api/appointments/${id}`).then(r =>
+    return axios.delete(`https://scheduler-lighthouselabs.herokuapp.com/api/appointments/${id}`).then(r =>
       // Promise.all([
       //   axios.get("/api/appointments"),
       //   axios.get("/api/days")
