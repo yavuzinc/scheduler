@@ -2,7 +2,12 @@
 
 React scheduler with up to five appointments per day. The information will be synced over multiple clients with the help of Web Sockets.
 
+- I used cloud platform as a **Heroku** and deployed with **Netlify**
+
 ## Final Product
+
+## Please go to live site for test! Have fun!
+- Click me for booking. [app](https://618344595badad21556aed27--scheduler-lighthouselabs.netlify.app/).
 
 ### Homepage
 
