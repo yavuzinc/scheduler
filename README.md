@@ -6,26 +6,43 @@ React scheduler with up to five appointments per day. The information will be sy
 
 ### Homepage
 
-Landing page, with up to five appointments per day and dynamic counter for the remaining spots.
-
-!["Homepage"](https://github.com/andyzen619/lighthouse-labs-scheduler/blob/master/Images/opening.png)
+!["Homepage"]()
 
 ### New Appointment
 
-!["create new appointment"](https://github.com/andyzen619/lighthouse-labs-scheduler/blob/master/Images/creating.gif)
+!["New Appointment"]()
 
 ### Editing Appointment
 
-!["contextual error"](https://github.com/andyzen619/lighthouse-labs-scheduler/blob/master/Images/error.gif)
+!["Editing Appointment"]()
 
 ### Filling the last spot
 
-!["adaptive design"](https://github.com/andyzen619/lighthouse-labs-scheduler/blob/master/Images/mobile.png)
+!["Filling the last spot"]()
 
 ### Deleting Appointment
 
-!["state transitions"](https://github.com/andyzen619/lighthouse-labs-scheduler/blob/master/Images/transition.gif)
+!["Deleting Appointment"]()
 
+## Installation
+```
+npm install
+```
+
+## Running Webpack Development Server
+```
+npm start
+```
+
+## Running Jest Test Framework
+```
+npm test
+```
+
+## Running Storybook Visual Testbed
+```
+npm run storybook
+```
 
 ## Dependencies
 
@@ -49,7 +66,7 @@ Landing page, with up to five appointments per day and dynamic counter for the r
   - "@testing-library/react": "^8.0.9",
   - "@testing-library/react-hooks": "^3.4.1",
   - "babel-loader": "^8.0.5",
-  - "node-sass": "^4.11.0",
+  - "node-sass": "^4.14.0",
 	- "react-test-renderer": "^16.9.0"
 
 ## Getting Started
