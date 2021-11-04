@@ -6,23 +6,23 @@ React scheduler with up to five appointments per day. The information will be sy
 
 ### Homepage
 
-!["Homepage"]()
+!["Homepage"](https://github.com/yavuzinc/scheduler/blob/master/docs/homepage.png)
 
 ### New Appointment
 
-!["New Appointment"]()
+!["New Appointment"](https://github.com/yavuzinc/scheduler/blob/master/docs/new_appointment.gif)
 
 ### Editing Appointment
 
-!["Editing Appointment"]()
+!["Editing Appointment"](https://github.com/yavuzinc/scheduler/blob/master/docs/edit_appointment.gif)
 
 ### Filling the last spot
 
-!["Filling the last spot"]()
+!["Filling the last spot"](https://github.com/yavuzinc/scheduler/blob/master/docs/filled_last_spot.gif)
 
 ### Deleting Appointment
 
-!["Deleting Appointment"]()
+!["Deleting Appointment"](https://github.com/yavuzinc/scheduler/blob/master/docs/delete_appointment.gif)
 
 ## Installation
 ```
