@@ -7,7 +7,8 @@ React scheduler with up to five appointments per day. The information will be sy
 ## Final Product
 
 ### Please go to live site for test! Have fun!
--[Click me for booking](https://618344595badad21556aed27--scheduler-lighthouselabs.netlify.app/)
+*please refresh the page after ~15sec. 
+- [Click me for scheduler](https://618344595badad21556aed27--scheduler-lighthouselabs.netlify.app/)
 
 ### Homepage
 
