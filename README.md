@@ -28,7 +28,8 @@ React scheduler with up to five appointments per day. The information will be sy
 
 ### Deleting Appointment
 
-!["Deleting Appointment"](https://github.com/yavuzinc/scheduler/blob/master/docs/delete_appointment.gif)
+!["Deleting Appointment"](https://github.com/kramphub-recruitment/Yavuz/blob/master/thrones/assets/main-page.png)
+
 
 ## Installation
 ```
